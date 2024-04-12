@@ -12,7 +12,7 @@ enter_pressed = False
 
 
 # add your api key if below code does not work
-GOOGLE_API_KEY = "AIzaSyBAESdw0y1QQancJ7Bb9ICpc-rUxi2cHrY"
+# GOOGLE_API_KEY = 
 
 
 genai.configure(api_key=GOOGLE_API_KEY)
