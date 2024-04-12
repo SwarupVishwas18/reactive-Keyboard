@@ -858,7 +858,9 @@ JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D l
 JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
 JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
 JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
-1712951413336	addons.xpi	ERROR	System addon update list erro1712951415135	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54883" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\swaru\\AppData\\Local\\Temp\\rust_mozprofilekEtRQM"
+1712951413336	addons.xpi	ERROR	System addon update list erro1712951415135	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.ex1712958461782	Marionette	INFO	Stopped listening on port 54799
+Dynamically enable window occlusion 1
+profile" "C:\\Users\\swaru\\AppData\\Local\\Temp\\rust_mozprofilekEtRQM"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 1712951415528	Marionette	INFO	Marionette enabled
@@ -912,5 +914,148 @@ sWa@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo
 jxa@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:854:398
 c@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/ck=maps.m.ywZqsa02NtQ.L.F4.O/m=vwr,vd,a,nrw,owc,ob,sp,en,smi,sc,vlg,smr,as,wrc,std/am=JgCjAQg/rt=j/d=1/rs=ACT90oFwwNNIjtp4oqBqS7RNSxjcECBafQ/ed=1/exm=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b:1533:256
 this.wa@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:853:172
+
+Dynamically enable window occlusion 1
+1712960924804	geckodriver	INFO	Listening on 127.0.0.1:55873
+1712960927885	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55874" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\swaru\\AppData\\Local\\Temp\\rust_mozprofile2JATkG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712960928344	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712960928432	Marionette	INFO	Listening on port 55882
+WebDriver BiDi listening on ws://127.0.0.1:55874
+Read port: 55882
+1712960928606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55874/devtools/browser/c8b2cc87-3c8a-4df1-89d6-24e7d10988ae
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B, line 2419: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+1712960958832	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1712961225354	Marionette	INFO	Stopped listening on port 55882
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55970" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\swaru\\AppData\\Local\\Temp\\rust_mozprofileGyJLMq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712961000819	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712961000921	Marionette	INFO	Listening on port 55983
+WebDriver BiDi listening on ws://127.0.0.1:55970
+Read port: 55983
+1712961001066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55970/devtools/browser/efbbc0df-b0a7-45a9-b322-f75d0103e98a
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B, line 2419: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+1712961031429	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: , line 0: WebGL warning: copyTexSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: copyTexSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+1712961218691	Marionette	INFO	Stopped listening on port 55983
+Dynamically enable window occlusion 1
+emote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712961097521	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712961097603	Marionette	INFO	Listening on port 56122
+WebDriver BiDi listening on ws://127.0.0.1:56115
+Read port: 56122
+1712961097776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56115/devtools/browser/6471c895-05f8-4540-9a49-426eb4bf550f
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B, line 2419: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+1712961104408	Marionette	INFO	Stopped listening on port 56122
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B, line 848: Script terminated by timeout at:
+Ur@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:848:270
+FWa@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:852:593
+lxa@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:854:286
+c@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/ck=maps.m.ywZqsa02NtQ.L.F4.O/m=vwr,vd,a,nrw,owc,ob,sp,en,smi,sc,vlg,smr,as,wrc,std/am=JgCjAQg/rt=j/d=1/rs=ACT90oFwwNNIjtp4oqBqS7RNSxjcECBafQ/ed=1/exm=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b:1533:256
+this.Na@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:853:137
+c@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/ck=maps.m.ywZqsa02NtQ.L.F4.O/m=vwr,vd,a,nrw,owc,ob,sp,en,smi,sc,vlg,smr,as,wrc,std/am=JgCjAQg/rt=j/d=1/rs=ACT90oFwwNNIjtp4oqBqS7RNSxjcECBafQ/ed=1/exm=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b:1533:256
+_.hm.tkb/b.port1.onmessage@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:383:250
+
+Dynamically enable window occlusion 1
+1712961126674	geckodriver	INFO	Listening on 127.0.0.1:56189
+1712961130050	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56190" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\swaru\\AppData\\Local\\Temp\\rust_mozprofileq4RUVG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712961131976	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712961132058	Marionette	INFO	Listening on port 56197
+Read port: 56197
+WebDriver BiDi listening on ws://127.0.0.1:56190
+1712961132129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56190/devtools/browser/354a88be-af15-4df6-a3d3-9d2037a0d962
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B, line 2419: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+1712961138289	Marionette	INFO	Stopped listening on port 56197
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/ck=maps.m.ywZqsa02NtQ.L.F4.O/m=vwr,vd,a,nrw,owc,ob,sp,en,smi,sc,vlg,smr,as,wrc,std/am=JgCjAQg/rt=j/d=1/rs=ACT90oFwwNNIjtp4oqBqS7RNSxjcECBafQ/ed=1/exm=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b, line 519: Script terminated by timeout at:
+next@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/ck=maps.m.ywZqsa02NtQ.L.F4.O/m=vwr,vd,a,nrw,owc,ob,sp,en,smi,sc,vlg,smr,as,wrc,std/am=JgCjAQg/rt=j/d=1/rs=ACT90oFwwNNIjtp4oqBqS7RNSxjcECBafQ/ed=1/exm=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b:519:668
+c@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:851:278
+Ur@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:848:134
+FWa@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:852:593
+lxa@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:854:286
+c@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/ck=maps.m.ywZqsa02NtQ.L.F4.O/m=vwr,vd,a,nrw,owc,ob,sp,en,smi,sc,vlg,smr,as,wrc,std/am=JgCjAQg/rt=j/d=1/rs=ACT90oFwwNNIjtp4oqBqS7RNSxjcECBafQ/ed=1/exm=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b:1533:256
+this.Na@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:853:137
+c@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/ck=maps.m.ywZqsa02NtQ.L.F4.O/m=vwr,vd,a,nrw,owc,ob,sp,en,smi,sc,vlg,smr,as,wrc,std/am=JgCjAQg/rt=j/d=1/rs=ACT90oFwwNNIjtp4oqBqS7RNSxjcECBafQ/ed=1/exm=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b:1533:256
+_.hm.tkb/b.port1.onmessage@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:383:250
+
+Dynamically enable window occlusion 1
+1712961209616	geckodriver	INFO	Listening on 127.0.0.1:56284
+1712961212678	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56285" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\swaru\\AppData\\Local\\Temp\\rust_mozprofileCUPsQM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712961213059	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712961213141	Marionette	INFO	Listening on port 56295
+WebDriver BiDi listening on ws://127.0.0.1:56285
+Read port: 56295
+1712961213304	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56285/devtools/browser/2bd69fda-c01d-4c51-b4d3-4ff8dd382081
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B, line 2419: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+1712961219903	Marionette	INFO	Stopped listening on port 56295
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/ck=maps.m.ywZqsa02NtQ.L.F4.O/m=vwr,vd,a,nrw,owc,ob,sp,en,smi,sc,vlg,smr,as,wrc,std/am=JgCjAQg/rt=j/d=1/rs=ACT90oFwwNNIjtp4oqBqS7RNSxjcECBafQ/ed=1/exm=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b, line 644: Script terminated by timeout at:
+jta@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/ck=maps.m.ywZqsa02NtQ.L.F4.O/m=vwr,vd,a,nrw,owc,ob,sp,en,smi,sc,vlg,smr,as,wrc,std/am=JgCjAQg/rt=j/d=1/rs=ACT90oFwwNNIjtp4oqBqS7RNSxjcECBafQ/ed=1/exm=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b:644:982
+_.gth@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/ck=maps.m.ywZqsa02NtQ.L.F4.O/m=vwr,vd,a,nrw,owc,ob,sp,en,smi,sc,vlg,smr,as,wrc,std/am=JgCjAQg/rt=j/d=1/rs=ACT90oFwwNNIjtp4oqBqS7RNSxjcECBafQ/ed=1/exm=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b:510:306
+measureText@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/ck=maps.m.ywZqsa02NtQ.L.F4.O/m=vwr,vd,a,nrw,owc,ob,sp,en,smi,sc,vlg,smr,as,wrc,std/am=JgCjAQg/rt=j/d=1/rs=ACT90oFwwNNIjtp4oqBqS7RNSxjcECBafQ/ed=1/exm=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b:691:535
+oU@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/ck=maps.m.ywZqsa02NtQ.L.F4.O/m=vwr,vd,a,nrw,owc,ob,sp,en,smi,sc,vlg,smr,as,wrc,std/am=JgCjAQg/rt=j/d=1/rs=ACT90oFwwNNIjtp4oqBqS7RNSxjcECBafQ/ed=1/exm=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b:691:704
+_.fyh/<@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/ck=maps.m.ywZqsa02NtQ.L.F4.O/m=vwr,vd,a,nrw,owc,ob,sp,en,smi,sc,vlg,smr,as,wrc,std/am=JgCjAQg/rt=j/d=1/rs=ACT90oFwwNNIjtp4oqBqS7RNSxjcECBafQ/ed=1/exm=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b:700:254
+next@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/ck=maps.m.ywZqsa02NtQ.L.F4.O/m=vwr,vd,a,nrw,owc,ob,sp,en,smi,sc,vlg,smr,as,wrc,std/am=JgCjAQg/rt=j/d=1/rs=ACT90oFwwNNIjtp4oqBqS7RNSxjcECBafQ/ed=1/exm=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b:519:460
+c@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:851:278
+Ur@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:848:134
+FWa@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:852:593
+lxa@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:854:286
+c@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/ck=maps.m.ywZqsa02NtQ.L.F4.O/m=vwr,vd,a,nrw,owc,ob,sp,en,smi,sc,vlg,smr,as,wrc,std/am=JgCjAQg/rt=j/d=1/rs=ACT90oFwwNNIjtp4oqBqS7RNSxjcECBafQ/ed=1/exm=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b:1533:256
+this.Na@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:853:137
+c@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/ck=maps.m.ywZqsa02NtQ.L.F4.O/m=vwr,vd,a,nrw,owc,ob,sp,en,smi,sc,vlg,smr,as,wrc,std/am=JgCjAQg/rt=j/d=1/rs=ACT90oFwwNNIjtp4oqBqS7RNSxjcECBafQ/ed=1/exm=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b:1533:256
+_.hm.tkb/b.port1.onmessage@https://www.google.com/maps/_/js/k=maps.m.en._PR807uv0XY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=JgCjAQg/rt=j/d=1/rs=ACT90oGzBgDIBnEo26goDYZ_6r2OXUwhpA?wli=m.0ORhXY8LodI.loadSv.O%3A%3Bm.23uKk1DnVes.mapcore.O%3A%3B:383:250
 
 Dynamically enable window occlusion 1
