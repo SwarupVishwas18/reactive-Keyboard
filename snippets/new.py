@@ -12,7 +12,7 @@ enter_pressed = False
 
 
 # add your api key if below code does not work
-GOOGLE_API_KEY = open("secret.key", "r").read()
+GOOGLE_API_KEY = "AIzaSyBAESdw0y1QQancJ7Bb9ICpc-rUxi2cHrY"
 
 
 genai.configure(api_key=GOOGLE_API_KEY)
@@ -23,10 +23,11 @@ model = genai.GenerativeModel("gemini-pro")
 def getting_data(text):
     if text != "":
         print(f"Processing string:   {text}")
-        res = f' Should the user be targeted for product if he is typing "{ text }" answer in yes or no .if yes which product'
+        res = f' Should the user be targeted for product if he is typing "{ text }" answer in yes or no .if yes which product, also give me result in the format of yes/no:product-name'
         print(res)
         response = model.generate_content(res)
-        print(response)
+        for chunk in response:
+            print(chunk.text)
 
 
 def on_key_press(event):
