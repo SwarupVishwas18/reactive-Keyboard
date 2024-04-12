@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
+from pprint import pprint
 
 
 def get_data(item: str) -> list:
@@ -42,15 +43,24 @@ def get_data(item: str) -> list:
     i = 0
     for address in addresses:
         text = address.text
+        if i >= len(data):
+            break
         # print(text.split("."))
         if ("\n" in text) or ("₹" in text):
             continue
         print(i)
+        b = False
         if "·" in text:
-            print(text.split("·"))
+            # print(text.split("·"))
+            data[i]["address"] = text.split("·")[-1]
+            b = True
         elif "⋅" in text:
-            print(text.split("⋅"))
-        i += 1
+            data[i]["status"] = text.split("⋅")[0]
+
+            # print(text.split("⋅"))
+            b = True
+        if b:
+            i += 1
 
     i = 0
     for l in links:
@@ -63,7 +73,7 @@ def get_data(item: str) -> list:
     print(driver.current_url)
     driver.close()
 
-    print(data)
+    pprint(data)
     return data
 
 
