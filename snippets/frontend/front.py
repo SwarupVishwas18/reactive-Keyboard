@@ -443,8 +443,15 @@ class Ui_MainWindow(object):
         while i < len(text_labels) and j < len(data):
             dt = data[j]
             j += 1
-            text_labels[i].setText(_translate("MainWindow", dt["text"]))
-            ratings_labels[i].setText(_translate("MainWindow", dt["rating"]))
+            try:
+                text_labels[i].setText(_translate("MainWindow", dt["text"]))
+            except:
+                continue
+            try:
+                ratings_labels[i].setText(_translate("MainWindow", dt["rating"]))
+            except:
+                ratings_labels[i].setText(_translate("MainWindow", "3.0"))
+
             try:
                 address_labels[i].setText(_translate("MainWindow", dt["address"]))
             except:
@@ -456,7 +463,7 @@ class Ui_MainWindow(object):
                 status_labels[i].setText(_translate("MainWindow", "Closed"))
             i += 1
 
-        # i -= 1
+        i -= 1
         print("text : ", address_labels[i].text())
         while address_labels[i].text() == "":
             address_labels[i].setText(_translate("MainWindow", "Location Not Found"))
