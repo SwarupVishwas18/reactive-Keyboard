@@ -10,7 +10,7 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 
 
 class Ui_MainWindow(object):
-    def setupUi(self, MainWindow):
+    def setupUi(self, MainWindow, data):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(374, 668)
         MainWindow.setStyleSheet("background-color: #5d5d5d;")
@@ -21,29 +21,34 @@ class Ui_MainWindow(object):
         self.listView.setObjectName("listView")
         self.columnView = QtWidgets.QColumnView(parent=self.centralwidget)
         self.columnView.setGeometry(QtCore.QRect(20, 10, 331, 151))
-        self.columnView.setStyleSheet("background-color: #000;\n"
-"border-radius: 9px;")
+        self.columnView.setStyleSheet("background-color: #000;\n" "border-radius: 9px;")
         self.columnView.setObjectName("columnView")
         self.label = QtWidgets.QLabel(parent=self.centralwidget)
         self.label.setGeometry(QtCore.QRect(30, 20, 121, 131))
         self.label.setStyleSheet("border-radius: 33px;")
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("../Desktop/pexels-saveurs-secretes-5410400.jpg"))
+        self.label.setPixmap(
+            QtGui.QPixmap("../Desktop/pexels-saveurs-secretes-5410400.jpg")
+        )
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_2.setGeometry(QtCore.QRect(160, 20, 171, 51))
-        self.label_2.setStyleSheet("font-size: 17px;\n"
-"color: #fff;\n"
-"background-color: #000;")
-        self.label_2.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignTop)
+        self.label_2.setStyleSheet(
+            "font-size: 17px;\n" "color: #fff;\n" "background-color: #000;"
+        )
+        self.label_2.setAlignment(
+            QtCore.Qt.AlignmentFlag.AlignLeading
+            | QtCore.Qt.AlignmentFlag.AlignLeft
+            | QtCore.Qt.AlignmentFlag.AlignTop
+        )
         self.label_2.setWordWrap(True)
         self.label_2.setObjectName("label_2")
         self.label_3 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_3.setGeometry(QtCore.QRect(90, 30, 51, 21))
-        self.label_3.setStyleSheet("font-size: 9px;\n"
-"color: #fff;\n"
-"background-color: #000;")
+        self.label_3.setStyleSheet(
+            "font-size: 9px;\n" "color: #fff;\n" "background-color: #000;"
+        )
         self.label_3.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
         self.label_3.setWordWrap(True)
         self.label_3.setObjectName("label_3")
@@ -91,18 +96,24 @@ class Ui_MainWindow(object):
         self.label_9.setObjectName("label_9")
         self.label_10 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_10.setGeometry(QtCore.QRect(180, 80, 141, 41))
-        self.label_10.setStyleSheet("font-size: 13px;\n"
-"color: #d9d9d9;\n"
-"background-color: #000;")
-        self.label_10.setAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignLeft|QtCore.Qt.AlignmentFlag.AlignTop)
+        self.label_10.setStyleSheet(
+            "font-size: 13px;\n" "color: #d9d9d9;\n" "background-color: #000;"
+        )
+        self.label_10.setAlignment(
+            QtCore.Qt.AlignmentFlag.AlignLeading
+            | QtCore.Qt.AlignmentFlag.AlignLeft
+            | QtCore.Qt.AlignmentFlag.AlignTop
+        )
         self.label_10.setWordWrap(True)
         self.label_10.setObjectName("label_10")
         self.label_11 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_11.setGeometry(QtCore.QRect(160, 130, 51, 21))
-        self.label_11.setStyleSheet("font-size: 10px;\n"
-"font-weight: 600;\n"
-"color: #000;\n"
-"background-color: #d9d9d9;")
+        self.label_11.setStyleSheet(
+            "font-size: 10px;\n"
+            "font-weight: 600;\n"
+            "color: #000;\n"
+            "background-color: #d9d9d9;"
+        )
         self.label_11.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
         self.label_11.setWordWrap(True)
         self.label_11.setObjectName("label_11")
@@ -122,13 +133,16 @@ class Ui_MainWindow(object):
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
 
-        self.retranslateUi(MainWindow)
+        self.retranslateUi(MainWindow, data)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-    def retranslateUi(self, MainWindow):
+    def retranslateUi(self, MainWindow, data):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label_2.setText(_translate("MainWindow", "Sukhsagar Pavbhaji"))
-        self.label_3.setText(_translate("MainWindow", "Open Now"))
-        self.label_10.setText(_translate("MainWindow", "Chintamani Nagar, Pune 411037"))
-        self.label_11.setText(_translate("MainWindow", "4 km"))
+        self.label_2.setText(_translate("MainWindow", data["text"]))
+        try:
+            self.label_3.setText(_translate("MainWindow", data["status"]))
+        except KeyError:
+            self.label_3.setText(_translate("MainWindow", "Closed"))
+        self.label_10.setText(_translate("MainWindow", data["address"]))
+        self.label_11.setText(_translate("MainWindow", data["rating"] + " Stars"))

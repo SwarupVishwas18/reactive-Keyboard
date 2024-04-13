@@ -74,10 +74,10 @@ def get_data(item: str) -> list:
     driver.close()
 
     pprint(data)
-    return data
+    return data[0]
 
 
-get_data("donut")
+# get_data("donut")
 
 # from bs4 import BeautifulSoup
 # import requests
