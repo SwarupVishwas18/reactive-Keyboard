@@ -1,3 +1,4 @@
+import os
 import keyboard
 import threading
 
@@ -8,6 +9,7 @@ from colorama import Fore
 import google.generativeai as genai
 import sys
 from PyQt6 import QtWidgets, uic
+import requests
 from frontend.main_window import MainWindow
 from ex import get_data
 import keyboard
@@ -22,9 +24,12 @@ gen_text = ""
 # GOOGLE_API_KEY =
 
 
-genai.configure(api_key="YOUR_KEY")
+genai.configure(api_key="AIzaSyBAESdw0y1QQancJ7Bb9ICpc-rUxi2cHrY")
 
 model = genai.GenerativeModel("gemini-pro")
+
+
+
 
 
 def getting_data(text):
