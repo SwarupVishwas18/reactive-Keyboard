@@ -1,7 +1,18 @@
+import os
+import requests
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from pprint import pprint
+
+
+def download_image(url, filename, save_path=".\\frontend\\img"):
+    response = requests.get(url)
+    if response.status_code == 200:
+        with open(os.path.join(save_path, filename), "wb") as f:
+            f.write(response.content)
+    else:
+        print("Failed to download image")
 
 
 def get_data(item: str) -> list:
@@ -20,12 +31,21 @@ def get_data(item: str) -> list:
     img_divs = driver.find_elements(By.CLASS_NAME, "p0Hhde")
 
     imgs = []
-
+    i = 1
     for img_div in img_divs:
         # imgs.append(img_div.find_element(By.TAG_NAME, "img").get_dom_attribute("src"))
         data.append(
             {"img": img_div.find_element(By.TAG_NAME, "img").get_dom_attribute("src")}
         )
+
+        url = img_div.find_element(By.TAG_NAME, "img").get_dom_attribute("src")
+        if "http" not in url:
+            url = "https:" + url
+        download_image(
+            url,
+            str(i) + ".png",
+        )
+        i += 1
 
     print(imgs)
     i = 0

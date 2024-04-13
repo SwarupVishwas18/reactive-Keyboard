@@ -57,7 +57,7 @@ border-radius: 9px;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Desktop/pexels-saveurs-secretes-5410400.jpg</pixmap>
+     <pixmap>img/pexels-saveurs-secretes-5410400.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -111,121 +111,11 @@ background-color: #000;</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>50</y>
-      <width>16</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: #000;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../Desktop/star-fill.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>50</y>
-      <width>16</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: #000;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../Desktop/star-fill.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>50</y>
-      <width>16</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: #000;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../Desktop/star-fill.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_7">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>50</y>
-      <width>16</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: #000;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../Desktop/star-fill.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_8">
-    <property name="geometry">
-     <rect>
-      <x>240</x>
-      <y>50</y>
-      <width>16</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: #000;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../Desktop/star-empty.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
       <x>160</x>
-      <y>80</y>
+      <y>60</y>
       <width>16</width>
       <height>16</height>
      </rect>
@@ -237,7 +127,7 @@ background-color: #000;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Desktop/map.png</pixmap>
+     <pixmap>img/map.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -247,7 +137,7 @@ background-color: #000;</string>
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>80</y>
+      <y>60</y>
       <width>141</width>
       <height>41</height>
      </rect>
@@ -601,7 +491,7 @@ background-color: #000;</string>
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>250</y>
+      <y>230</y>
       <width>141</width>
       <height>41</height>
      </rect>
@@ -637,7 +527,7 @@ background-color: #000;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Desktop/pexels-saveurs-secretes-5410400.jpg</pixmap>
+     <pixmap>img/pexels-saveurs-secretes-5410400.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -934,7 +824,7 @@ background-color: #000;</string>
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>410</y>
+      <y>390</y>
       <width>141</width>
       <height>41</height>
      </rect>
@@ -970,7 +860,51 @@ background-color: #000;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Desktop/pexels-saveurs-secretes-5410400.jpg</pixmap>
+     <pixmap>img/pexels-saveurs-secretes-5410400.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_41">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>230</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>img/map.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_42">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>390</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #000;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>img/map.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -981,11 +915,6 @@ background-color: #000;</string>
    <zorder>label</zorder>
    <zorder>label_2</zorder>
    <zorder>label_3</zorder>
-   <zorder>label_4</zorder>
-   <zorder>label_5</zorder>
-   <zorder>label_6</zorder>
-   <zorder>label_7</zorder>
-   <zorder>label_8</zorder>
    <zorder>label_9</zorder>
    <zorder>label_10</zorder>
    <zorder>label_11</zorder>
@@ -1002,7 +931,6 @@ background-color: #000;</string>
    <zorder>columnView_2</zorder>
    <zorder>label_22</zorder>
    <zorder>label_23</zorder>
-   <zorder>label_25</zorder>
    <zorder>label_26</zorder>
    <zorder>label_24</zorder>
    <zorder>label_27</zorder>
@@ -1020,6 +948,9 @@ background-color: #000;</string>
    <zorder>label_39</zorder>
    <zorder>label_40</zorder>
    <zorder>label_38</zorder>
+   <zorder>label_41</zorder>
+   <zorder>label_42</zorder>
+   <zorder>label_25</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
