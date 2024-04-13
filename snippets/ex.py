@@ -73,8 +73,7 @@ def get_data(item: str) -> list:
     print(driver.current_url)
     driver.close()
 
-    pprint(data)
-    return data[0]
+    return data
 
 
 # get_data("donut")
