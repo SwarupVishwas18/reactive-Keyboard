@@ -11,7 +11,7 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 from PyQt6.QtGui import QPixmap
 from PyQt6.QtNetwork import QNetworkAccessManager, QNetworkRequest
 from colorama import Fore
-from PyQt6.QtCore import QUrl
+from PyQt6.QtCore import QUrl, Qt
 import requests
 
 
@@ -54,7 +54,17 @@ class Ui_MainWindow(object):
         self.label.setStyleSheet("border-radius: 33px;")
         self.label.setText("")
 
-        self.label.setPixmap(QPixmap(".\\frontend\\img\\1.png"))
+        pth = os.path.abspath(".\\snippets\\frontend\\1.png")
+        print(pth)
+        pixmap = QPixmap(pth)
+
+        if pixmap.isNull():
+            print("Kein")
+            print("\\snippets\\frontend\\2.png")
+        else:
+            print(pth)
+
+        self.label.setPixmap(pixmap)
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(parent=self.centralwidget)
@@ -118,14 +128,14 @@ class Ui_MainWindow(object):
         self.label_19.setGeometry(QtCore.QRect(20, 180, 121, 131))
         self.label_19.setStyleSheet("border-radius: 33px;")
         self.label_19.setText("")
-        self.label_19.setPixmap(QPixmap(".\\frontend\\img\\2.png"))
+        self.label_19.setPixmap(QPixmap("2.png"))
         self.label_19.setScaledContents(True)
         self.label_19.setObjectName("label_19")
         self.label_17 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_17.setGeometry(QtCore.QRect(20, 180, 121, 131))
         self.label_17.setStyleSheet("border-radius: 33px;")
         self.label_17.setText("")
-        self.label_17.setPixmap(QPixmap(".\\frontend\\img\\3.png"))
+        self.label_17.setPixmap(QPixmap(".\\3.png"))
         self.label_17.setScaledContents(True)
         self.label_17.setObjectName("label_17")
         self.label_13 = QtWidgets.QLabel(parent=self.centralwidget)
@@ -139,14 +149,14 @@ class Ui_MainWindow(object):
         self.label_14.setGeometry(QtCore.QRect(240, 220, 16, 16))
         self.label_14.setStyleSheet("background-color: #000;")
         self.label_14.setText("")
-        self.label_14.setPixmap(QPixmap(".\\frontend\\img\\star-empty.png"))
+        # self.label_14.setPixmap(QPixmap(".\\frontend\\img\\star-empty.png"))
         self.label_14.setScaledContents(True)
         self.label_14.setObjectName("label_14")
         self.label_15 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_15.setGeometry(QtCore.QRect(180, 220, 16, 16))
         self.label_15.setStyleSheet("background-color: #000;")
         self.label_15.setText("")
-        self.label_15.setPixmap(QPixmap(".\\frontend\\img\\star-fill.png"))
+        # self.label_15.setPixmap(QPixmap(".\\frontend\\img\\star-fill.png"))
         self.label_15.setScaledContents(True)
         self.label_15.setObjectName("label_15")
         self.label_16 = QtWidgets.QLabel(parent=self.centralwidget)
@@ -160,21 +170,39 @@ class Ui_MainWindow(object):
         self.label_18.setGeometry(QtCore.QRect(30, 190, 121, 131))
         self.label_18.setStyleSheet("border-radius: 33px;")
         self.label_18.setText("")
-        self.label_18.setPixmap(QPixmap(".\\frontend\\img\\1.png"))
+        pth = os.path.abspath(".\\snippets\\frontend\\1.png")
+        print(pth)
+        pixmap = QPixmap(pth)
+
+        if pixmap.isNull():
+            print("Kein")
+            print("\\snippets\\frontend\\1.png")
+        else:
+            print(pth)
+        self.label_18.setPixmap(pixmap)
+
+        # Check if pixmap is loaded successfully
+        # if pixmap.isNull():
+        #     print(Fore.RED, "18", Fore.WHITE)
+        #     print("Failed to load image.")
+        # else:
+        #     self.label_18.setPixmap(pixmap)
+
+        # self.label_18.setPixmap(QPixmap(".\\1.png"))
         self.label_18.setScaledContents(True)
         self.label_18.setObjectName("label_18")
         self.label_20 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_20.setGeometry(QtCore.QRect(160, 220, 16, 16))
         self.label_20.setStyleSheet("background-color: #000;")
         self.label_20.setText("")
-        self.label_20.setPixmap(QPixmap(".\\frontend\\img\\star-fill.png"))
+        # self.label_20.setPixmap(QPixmap(".\\frontend\\img\\star-fill.png"))
         self.label_20.setScaledContents(True)
         self.label_20.setObjectName("label_20")
         self.label_21 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_21.setGeometry(QtCore.QRect(200, 220, 16, 16))
         self.label_21.setStyleSheet("background-color: #000;")
         self.label_21.setText("")
-        self.label_21.setPixmap(QPixmap(".\\frontend\\img\\star-fill.png"))
+        # self.label_21.setPixmap(QPixmap(".\\frontend\\img\\star-fill.png"))
         self.label_21.setScaledContents(True)
         self.label_21.setObjectName("label_21")
         self.columnView_2 = QtWidgets.QColumnView(parent=self.centralwidget)
@@ -187,7 +215,7 @@ class Ui_MainWindow(object):
         self.label_22.setGeometry(QtCore.QRect(220, 220, 16, 16))
         self.label_22.setStyleSheet("background-color: #000;")
         self.label_22.setText("")
-        self.label_22.setPixmap(QPixmap(".\\frontend\\img\\star-fill.png"))
+        # self.label_22.setPixmap(QPixmap(".\\frontend\\img\\star-fill.png"))
         self.label_22.setScaledContents(True)
         self.label_22.setObjectName("label_22")
         self.label_23 = QtWidgets.QLabel(parent=self.centralwidget)
@@ -225,7 +253,27 @@ class Ui_MainWindow(object):
         self.label_26.setGeometry(QtCore.QRect(30, 190, 121, 131))
         self.label_26.setStyleSheet("border-radius: 33px;")
         self.label_26.setText("")
-        self.label_26.setPixmap(QPixmap(".\\frontend\\img\\2.png"))
+        pth = os.path.abspath(".\\snippets\\frontend\\2.png")
+        print(pth)
+        pixmap = QtGui.QPixmap(pth)
+
+        if pixmap.isNull():
+            print("Kein")
+            print("\\snippets\\frontend\\2.png")
+        else:
+            print(pth)
+
+        self.label_26.setPixmap(pixmap)
+
+        # Check if pixmap is loaded successfully
+        if pixmap.isNull():
+            print(Fore.RED, "26", Fore.WHITE)
+
+            print("Failed to load image.")
+        else:
+            self.label_26.setPixmap(pixmap)
+
+        self.label_26.setPixmap(QPixmap("2.png"))
         self.label_26.setScaledContents(True)
         self.label_26.setObjectName("label_26")
         self.label_27 = QtWidgets.QLabel(parent=self.centralwidget)
@@ -251,14 +299,14 @@ class Ui_MainWindow(object):
         self.label_29.setGeometry(QtCore.QRect(240, 380, 16, 16))
         self.label_29.setStyleSheet("background-color: #000;")
         self.label_29.setText("")
-        self.label_29.setPixmap(QPixmap(".\\frontend\\img\\star-empty.png"))
+        # self.label_29.setPixmap(QPixmap(".\\frontend\\img\\star-empty.png"))
         self.label_29.setScaledContents(True)
         self.label_29.setObjectName("label_29")
         self.label_30 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_30.setGeometry(QtCore.QRect(180, 380, 16, 16))
         self.label_30.setStyleSheet("background-color: #000;")
         self.label_30.setText("")
-        self.label_30.setPixmap(QPixmap(".\\frontend\\img\\star-fill.png"))
+        # self.label_30.setPixmap(QPixmap(".\\frontend\\img\\star-fill.png"))
         self.label_30.setScaledContents(True)
         self.label_30.setObjectName("label_30")
         self.label_31 = QtWidgets.QLabel(parent=self.centralwidget)
@@ -272,21 +320,42 @@ class Ui_MainWindow(object):
         self.label_32.setGeometry(QtCore.QRect(30, 350, 121, 131))
         self.label_32.setStyleSheet("border-radius: 33px;")
         self.label_32.setText("")
-        self.label_32.setPixmap(QPixmap(".\\frontend\\img\\1.png"))
+        pth = os.path.abspath(".\\snippets\\frontend\\1.png")
+        print(pth)
+        pixmap = QPixmap(pth)
+
+        if pixmap.isNull():
+            print("Kein")
+            print("\\snippets\\frontend\\1.png")
+        else:
+            print(pth)
+
+        self.label_32.setPixmap(pixmap)
+        # pixmap = QPixmap("1.png")
+
+        # # Check if pixmap is loaded successfully
+        # if pixmap.isNull():
+        #     print(Fore.RED, "32", Fore.WHITE)
+
+        #     print("Failed to load image.")
+        # else:
+        #     self.label_32.setPixmap(pixmap)
+
+        # self.label_32.setPixmap(QPixmap(".\\1.png"))
         self.label_32.setScaledContents(True)
         self.label_32.setObjectName("label_32")
         self.label_33 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_33.setGeometry(QtCore.QRect(160, 380, 16, 16))
         self.label_33.setStyleSheet("background-color: #000;")
         self.label_33.setText("")
-        self.label_33.setPixmap(QPixmap(".\\frontend\\img\\star-fill.png"))
+        # self.label_33.setPixmap(QPixmap(".\\frontend\\img\\star-fill.png"))
         self.label_33.setScaledContents(True)
         self.label_33.setObjectName("label_33")
         self.label_34 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_34.setGeometry(QtCore.QRect(200, 380, 16, 16))
         self.label_34.setStyleSheet("background-color: #000;")
         self.label_34.setText("")
-        self.label_34.setPixmap(QPixmap(".\\frontend\\img\\star-fill.png"))
+        # self.label_34.setPixmap(QPixmap(".\\frontend\\img\\star-fill.png"))
         self.label_34.setScaledContents(True)
         self.label_34.setObjectName("label_34")
         self.columnView_3 = QtWidgets.QColumnView(parent=self.centralwidget)
@@ -311,7 +380,7 @@ class Ui_MainWindow(object):
         self.label_36.setGeometry(QtCore.QRect(220, 380, 16, 16))
         self.label_36.setStyleSheet("background-color: #000;")
         self.label_36.setText("")
-        self.label_36.setPixmap(QPixmap(".\\frontend\\img\\star-fill.png"))
+        # self.label_36.setPixmap(QPixmap(".\\frontend\\img\\star-fill.png"))
         self.label_36.setScaledContents(True)
         self.label_36.setObjectName("label_36")
         self.label_37 = QtWidgets.QLabel(parent=self.centralwidget)
@@ -356,7 +425,17 @@ class Ui_MainWindow(object):
         self.label_41.setGeometry(QtCore.QRect(160, 230, 16, 16))
         self.label_41.setStyleSheet("background-color: #000;")
         self.label_41.setText("")
-        self.label_41.setPixmap(QPixmap(".\\frontend\\img\\map.png"))
+        pth = os.path.abspath(".\\snippets\\frontend\\3.png")
+        print(pth)
+        pixmap = QtGui.QPixmap(pth)
+
+        if pixmap.isNull():
+            print("Kein")
+            print("\\snippets\\frontend\\2.png")
+        else:
+            print(pth)
+
+        self.label.setPixmap(pixmap)
         self.label_41.setScaledContents(True)
         self.label_41.setObjectName("label_41")
         self.label_42 = QtWidgets.QLabel(parent=self.centralwidget)
@@ -420,6 +499,8 @@ class Ui_MainWindow(object):
         MainWindow.setStatusBar(self.statusbar)
 
         self.retranslateUi(MainWindow, data)
+        MainWindow.setWindowFlag(Qt.WindowType.WindowStaysOnTopHint)
+
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow, data):

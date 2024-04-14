@@ -9,6 +9,7 @@ from colorama import Fore
 import google.generativeai as genai
 import sys
 from PyQt6 import QtWidgets, uic
+from PyQt6.QtCore import Qt
 import requests
 from frontend.main_window import MainWindow
 from ex import get_data
@@ -24,7 +25,7 @@ gen_text = ""
 # GOOGLE_API_KEY =
 
 
-genai.configure(api_key="API KEY")
+genai.configure(api_key="AIzaSyBAESdw0y1QQancJ7Bb9ICpc-rUxi2cHrY")
 
 model = genai.GenerativeModel("gemini-pro")
 
@@ -85,6 +86,7 @@ def on_key_press(event):
                 app = QtWidgets.QApplication(sys.argv)
                 window = MainWindow(data=data)
 
+                
                 window.show()
                 app.exec()
 

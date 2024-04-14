@@ -6,7 +6,8 @@ from selenium.webdriver.common.by import By
 from pprint import pprint
 
 
-def download_image(url, filename, save_path=".\\snippets\\frontend\\img"):
+def download_image(url, filename, save_path=os.path.abspath(".\\snippets\\frontend\\")):
+    print(save_path)
     response = requests.get(url)
     if response.status_code == 200:
         with open(os.path.join(save_path, filename), "wb") as f:

@@ -8,6 +8,7 @@
 
 from PyQt6 import QtCore, QtGui, QtWidgets
 from pathlib import Path
+import os
 
 
 class Ui_MainWindow(object):
@@ -28,7 +29,16 @@ class Ui_MainWindow(object):
         self.label.setGeometry(QtCore.QRect(30, 20, 121, 131))
         self.label.setStyleSheet("border-radius: 33px;")
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap(".\\2.png"))
+        pth = os.path.abspath(".\\snippets\\frontend\\2.png")
+        print(pth)
+        pixmap = QtGui.QPixmap(pth)
+
+        if pixmap.isNull():
+            print("Kein")
+            print("\\snippets\\frontend\\2.png")
+        else:
+            print(pixmap)
+        self.label.setPixmap(pixmap)
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(parent=self.centralwidget)
@@ -206,7 +216,7 @@ class Ui_MainWindow(object):
         self.label_26.setStyleSheet("border-radius: 33px;")
         self.label_26.setText("")
 
-        self.label_26.setPixmap(QtGui.QPixmap(".\\1.png"))
+        self.label_26.setPixmap(QtGui.QPixmap(".\\frontend\\1.png"))
         self.label_26.setScaledContents(True)
         self.label_26.setObjectName("label_26")
         self.label_27 = QtWidgets.QLabel(parent=self.centralwidget)
@@ -332,7 +342,7 @@ class Ui_MainWindow(object):
         self.label_40.setGeometry(QtCore.QRect(30, 350, 121, 131))
         self.label_40.setStyleSheet("border-radius: 33px;")
         self.label_40.setText("")
-        self.label_40.setPixmap(QtGui.QPixmap(".\\3.png"))
+        self.label_40.setPixmap(QtGui.QPixmap(".\\frontend\\3.png"))
         self.label_40.setScaledContents(True)
         self.label_40.setObjectName("label_40")
         self.label_41 = QtWidgets.QLabel(parent=self.centralwidget)
