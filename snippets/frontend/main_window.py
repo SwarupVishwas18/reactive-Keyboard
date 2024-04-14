@@ -1,7 +1,7 @@
 import sys
 from PyQt6 import QtWidgets, uic
 
-from .front import Ui_MainWindow
+from .frontui import Ui_MainWindow
 
 
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):

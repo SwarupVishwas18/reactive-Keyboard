@@ -14,6 +14,7 @@ import requests
 from frontend.main_window import MainWindow
 from ex import get_data
 import keyboard
+from time import sleep
 
 
 current_string = ""
@@ -83,10 +84,10 @@ def on_key_press(event):
                 item = gen_text.split("/")[1]
                 print(Fore.RED, item, Fore.WHITE)
                 data = get_data(item)
+                # sleep(10)
                 app = QtWidgets.QApplication(sys.argv)
-                window = MainWindow(data=data)
+                window = MainWindow(data)
 
-                
                 window.show()
                 app.exec()
 
